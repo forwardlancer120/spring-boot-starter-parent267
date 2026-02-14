@@ -1,0 +1,19 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: demo-app
+
+  data:
+    elasticsearch:
+      client:
+        rest:
+          uris: "https://e3d406386b1e4adc92f8b28256125c5e.us-central1.gcp.cloud.es.io:443"
+          username: "elastic"
+          password: "MvPeMftEPzd77TD9pnkdQJaN"
+      repositories:
+        enabled: false
+
+
+#  curl -u elastic:MvPeMftEPzd77TD9pnkdQJaN https://e3d406386b1e4adc92f8b28256125c5e.us-central1.gcp.cloud.es.io:443
