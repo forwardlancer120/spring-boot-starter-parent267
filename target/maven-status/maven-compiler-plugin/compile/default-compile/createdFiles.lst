@@ -1,5 +1,7 @@
+com\example\demo\config\SwaggerConfig.class
 com\example\demo\DemoApplication.class
 com\example\demo\config\ElasticsearchConfig.class
+com\example\demo\controller\TestController.class
 com\example\demo\repository\ProductRepository.class
 com\example\demo\model\Product.class
 com\example\demo\config\ElasticsearchProperties.class
